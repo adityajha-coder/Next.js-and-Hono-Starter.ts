@@ -17,7 +17,11 @@ export const metadata: Metadata = {
   description: "Production-ready starter template with Next.js, Hono RPC, Tailwind CSS, shadcn/ui, and TypeScript",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html
       lang="en"
