@@ -1,4 +1,4 @@
-# Next.js + Hono Starter (Boilerplate)
+# Next.js + Hono Starter (Template)
 
 This is a Full-Stack project setup with  Next.js, TypeScript, Shadcn and Hono.
 
